@@ -8,3 +8,11 @@ jobs:
     steps:
       - name: Print name 
         run: echo Junaid
+
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print address
+        run: |
+          echo Tokyo
+          echo Japan
